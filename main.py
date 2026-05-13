@@ -44,3 +44,67 @@ a = 5
 b = 10
 sum = a + b
 print(sum)
+
+#Operators in python
+
+#1st Arithmetic Operator
+
+a = 20 
+b = 2
+
+print(a+b)
+print(a-b)
+print(a/b)
+print(a%b)
+print(a**b)
+
+#2nd Relational Operator
+
+age1 = 30
+age2 = 5
+
+print(age1==age2)
+print(age1!=age2)
+print(age1>age2)
+print(age1<age2)
+print(age1>=age2)
+print(age1<=age2)
+
+#3rd Assignment Operator
+
+
+#4th Logical Operator
+
+#not prints the opposite of whatever you type 
+
+print(not True)
+print(not False)
+
+num1 = True
+num2 = False
+
+print (num1 and num2) #and is a condition where both the condition should be true or same 
+print(num1 or num2) #even if one value becomes true it would be true and if both are false output will be false
+
+
+#Type Conversion
+
+y = 4 #this is an integer
+z = 2.65 #this is an float value
+#here type conversion is happening automatically  it is converting a interger to 
+print(y + z)
+
+#type Casting 
+
+e = int("4")
+f=5
+print(e+f)
+
+#Taking input from the user
+
+details = input("")
+print("Enter your number" , details)
+
+
+
+
